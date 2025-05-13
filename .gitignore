@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variable files
+.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor specific files
+.vscode/
+.idea/
+
+# npm package lock files (if you don't need to track them)
+package-lock.json
+yarn.lock
+
+# Coverage reports (if using testing frameworks like Jest or Mocha)
+coverage/
+
+# Build directories (if you compile your code before pushing it)
+dist/
+build/
