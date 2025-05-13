@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Graphing Scientific Calculator</title>
+  <title>TI-84 Plus CE Graphing Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Graphing Scientific Calculator</h1>
-    <label for="function-input">Enter Function (e.g., y = x^2):</label>
-    <input type="text" id="function-input" placeholder="Enter equation">
-    <button id="graph-btn">Graph</button>
-    <div id="graph"></div>
+  <div class="ti84-calculator">
+    <div class="screen">
+      <div id="display">0</div>
+    </div>
+
+    <div class="button-grid">
+      <!-- First row -->
+      <button>Y=</button><button>window</button><button>zoom</button><button>trace</button><button>graph</button>
+
+      <!-- Second row -->
+      <button>2nd</button><button>mode</button><button>del</button>
+
+      <!-- Third row -->
+      <button>alpha</button><button>x,T,θ,n</button><button>math</button><button>apps</button><button>prgm</button><button>vars</button><button>clear</button>
+
+      <!-- Arrow row vvvvv was added-->
+
+    <div class="arrow-pad">
+        <div class="dpad">
+            <button class="arrow up">↑</button>
+            <button class="arrow left">←</button>
+        <div class="arrow center"></div>
+            <button class="arrow right">→</button>
+            <button class="arrow down">↓</button>
+        </div>
+    </div>
+
+ <!--   <div class="arrow-pad">
+        <div class="dpad">
+            <div class="arrow center"></div>
+            <button class="arrow up">↑</button><br>            
+            <button class="arrow left">←</button>
+            <button class="arrow down">↓</button>
+            <button class="arrow right">→</button>
+        </div>
+    </div>-->
+
+    
+
+      <!-- Number pad + scientific -->
+      <button>sin</button><button>cos</button><button>tan</button><button>^</button>
+      <button>log</button><button>ln</button><button>(</button><button>)</button>
+      <button>7</button><button>8</button><button>9</button><button>÷</button>
+      <button>4</button><button>5</button><button>6</button><button>×</button>
+      <button>1</button><button>2</button><button>3</button><button>−</button>
+      <button>0</button><button>.</button><button>Ans</button><button>+</button>
+
+      <button>(-)</button><button>,</button><button>sto→</button><button class="enter">ENTER</button>
+    </div>
   </div>
-  
-  <script src="app.js"></script>
+
+  <script src="main.js"></script>
 </body>
 </html>
